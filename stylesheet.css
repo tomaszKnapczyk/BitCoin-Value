@@ -1,0 +1,41 @@
+*{
+  font-family: 'Mina', sans-serif;
+  box-sizing:border-box;
+}
+
+
+h1{
+  text-align:center;
+  padding:100px;
+}
+
+.chart{
+  border: 1px solid #f2f2f2;
+  padding:30px;
+  margin:0 auto;
+  width:500px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-weight:bold;
+  -webkit-box-shadow: 10px 10px 28px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 28px -11px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 28px -11px rgba(0,0,0,0.75);
+  opacity:0;
+  animation: slidefade 3s forwards;
+  margin-top:300px;
+  font-size: 18px; 
+  letter-spacing: 2px;
+}
+
+.btc{
+	color: #FF9900;
+}
+
+
+@keyframes slidefade{
+  100%{
+    opacity:1;
+    margin-top:0px;
+  }
+}
